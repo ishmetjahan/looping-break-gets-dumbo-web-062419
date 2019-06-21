@@ -1,8 +1,11 @@
 
 def levitation_quiz
 	#your code here
-	loop 
-	
+	loop do 
+	  puts ""
+	answer= gets.chomp
+	break if answer== ""
+	end
 end
 
 
